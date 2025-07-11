@@ -1,0 +1,42 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+
+- intent: soil_fertility
+  examples: |
+    - How do I improve soil fertility?
+    - Ways to increase soil fertility?
+    - Tips for better soil health?
+    - Improve my farm soil
+    - Boost soil nutrition
+
+- intent: crop_rotation
+  examples: |
+    - Tell me about crop rotation
+    - What is crop rotation?
+    - Explain crop rotation
+    - How does crop rotation help soil?
+    - Why use crop rotation?
+    - Is crop rotation good for organic farming?
+    - Benefits of crop rotation?
+    - Give me info on crop rotation
+
+- intent: pest_control
+  examples: |
+    - How to control pests naturally?
+    - Organic pest control tips?
+    - What to do about insects on crops?
+    - Prevent pests in organic farming
+
+- intent: composting_methods
+  examples: |
+    - How to compost at home?
+    - Best composting techniques?
+    - Methods of composting
+    - Organic compost tips

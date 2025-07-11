@@ -1,0 +1,27 @@
+version: "2.0"
+intents:
+  - greet
+  - soil_fertility
+  - crop_rotation
+  - pest_control
+  - composting_methods
+
+responses:
+  utter_greet:
+    - text: "Hi there! Ask me anything about organic farming."
+
+  utter_soil_fertility:
+    - text: "To improve soil fertility, use crop rotation with legumes and apply compost or green manure."
+
+  utter_crop_rotation:
+    - text: "Crop rotation involves changing crops in each growing season. It helps prevent pests and improves soil."
+
+  utter_pest_control:
+    - text: "You can use neem oil spray, garlic-chili solutions, or introduce natural predators like ladybugs."
+
+  utter_composting_methods:
+    - text: "Vermicomposting and aerobic composting are great. Use kitchen waste, leaves, and cow dung for best results."
+    
+  utter_iamabot:
+    - text: "I am an assistant trained to help you with organic farming queries!"
+
